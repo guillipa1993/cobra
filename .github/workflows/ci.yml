@@ -12,6 +12,6 @@ jobs:
   ci-pipeline:
     uses: guillipa1993/devops-pipelines-ci-cd/.github/workflows/go-ci.yml@main
     secrets:
-      token: ${{ secrets.PAT }}
+      token: ${{ secrets.PAT }} # Cambio para activar el job
     with:
       go-version: "1.18"
