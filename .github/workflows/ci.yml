@@ -1,4 +1,4 @@
-name: "CI-CD Pipeline for Cobra" #Nombre del workflow
+name: "CI-CD Pipeline for Cobra" # Nombre del workflow
 
 on:
   push:
