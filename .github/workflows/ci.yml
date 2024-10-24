@@ -12,8 +12,8 @@ jobs:
   ci-pipeline:
     uses: guillipa1993/devops-pipelines-ci-cd/.github/workflows/go-ci.yml@main
     with:
-      go-version: '1.18'
       language: 'go'
+      go-version: '1.18'
       project-path: ''
       build-configuration: ''
       additional-install-commands: ''
