@@ -1,4 +1,4 @@
-name: "CI/CD Pipeline for Cobra" # New execution
+name: "CI/CD Pipeline for Cobra" 
 
 on:
   push:
